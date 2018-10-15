@@ -29,12 +29,11 @@ function init() {
         } else {
           break = true;
         }
-
         if (index === 10) {
           alert('Konami!');
           break = true;
         }
-      } while(!break)
+      } while(!break);
     }
   });
 }
