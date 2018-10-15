@@ -28,7 +28,10 @@ function init() {
         } else {
           index = -1;
         }
-      } while(index != -1)
+      } while(index != -1 || index === 10 )
+      if (index === 10) {
+        alert('Konami!');
+      }
     }
   });
 }
