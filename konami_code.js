@@ -22,16 +22,19 @@ function init() {
     }
     if (input.length === 10) {
       let index = 0;
+      let break = false;
       do {
         if (input[index] === codes[index]) {
           index++;
         } else {
-          index = -1;
+          break = true;
         }
-      } while(index != 10 || index != -1 )
-      if (index === 10) {
-        alert('Konami!');
-      }
+
+        if (index === 10) {
+          alert('Konami!');
+          break = true;
+        }
+      } while(!break)
     }
   });
 }
