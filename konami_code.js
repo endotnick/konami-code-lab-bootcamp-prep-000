@@ -22,17 +22,17 @@ function init() {
     }
     if (input.length === 10) {
       let index = 0;
-      let break = false;
+      let exit = false;
       do {
         if (input[index] === codes[index]) {
           index++;
         } else {
-          break = true;
+          exit = true;
         }
         if (index === 10) {
-          break = true;
+          exit = true;
         }
-      } while(!break);
+      } while(!exit);
       if (index === 10) {
         alert('Konami!');
       }
