@@ -22,7 +22,7 @@ function init() {
         alert('Konami!');
       }
     } else {
-      index =0;
+      index = 0;
     }
   });
 }
