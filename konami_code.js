@@ -18,7 +18,7 @@ function init() {
   document.body.addEventListener('keydown', function(key) {
     input.push(key.which);
     if (input.length > 10) {
-      input.shift;
+      input.shift();
     }
     if (input.length === 10) {
       let index = 0;
