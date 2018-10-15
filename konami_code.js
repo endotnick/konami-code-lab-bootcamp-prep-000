@@ -28,7 +28,7 @@ function init() {
         } else {
           index = -1;
         }
-      } while(index < 10 || index != -1 )
+      } while(index != 10 || index != -1 )
       if (index === 10) {
         alert('Konami!');
       }
