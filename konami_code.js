@@ -15,7 +15,7 @@ let input = [];
 
 function init() {
   // your code here
-  document.body.addEventListener('keydown', function(key)) {
+  document.body.addEventListener('keydown', function(key) {
     input.push(key.which);
     if (input.length > 10) {
       input.shift;
@@ -30,6 +30,5 @@ function init() {
         }
       } while(index != -1)
     }
-  }
-
+  });
 }
