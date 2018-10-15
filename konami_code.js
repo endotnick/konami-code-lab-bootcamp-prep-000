@@ -30,12 +30,10 @@ function init() {
           exit = true;
         }
         if (index === 10) {
+          alert('Konami!');
           exit = true;
         }
       } while(!exit);
-      if (index === 10) {
-        alert('Konami!');
-      }
     }
   });
 }
